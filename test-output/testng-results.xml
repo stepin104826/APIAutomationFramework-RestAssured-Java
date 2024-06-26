@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-25T22:03:30 GMT-04:00" name="Suite" finished-at="2024-06-25T22:03:34 GMT-04:00" duration-ms="3378">
+    <groups>
+    </groups>
+    <test started-at="2024-06-25T22:03:30 GMT-04:00" name="Test" finished-at="2024-06-25T22:03:34 GMT-04:00" duration-ms="3378">
+      <class name="api.test.DataDrivenTests">
+        <test-method signature="testPostDataDriven([Ljava.lang.String;)[pri:1, instance:api.test.DataDrivenTests@6d763516]" started-at="2024-06-25T22:03:31 GMT-04:00" name="testPostDataDriven" data-provider="Data" finished-at="2024-06-25T22:03:33 GMT-04:00" duration-ms="1441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@664db2ca]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostDataDriven -->
+        <test-method signature="testPostDataDriven([Ljava.lang.String;)[pri:1, instance:api.test.DataDrivenTests@6d763516]" started-at="2024-06-25T22:03:33 GMT-04:00" name="testPostDataDriven" data-provider="Data" finished-at="2024-06-25T22:03:33 GMT-04:00" duration-ms="123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1491cd6c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostDataDriven -->
+        <test-method signature="testPostDataDriven([Ljava.lang.String;)[pri:1, instance:api.test.DataDrivenTests@6d763516]" started-at="2024-06-25T22:03:33 GMT-04:00" name="testPostDataDriven" data-provider="Data" finished-at="2024-06-25T22:03:33 GMT-04:00" duration-ms="124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3f0ce0d1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostDataDriven -->
+        <test-method signature="testDeleteUsers(java.lang.String)[pri:2, instance:api.test.DataDrivenTests@6d763516]" started-at="2024-06-25T22:03:33 GMT-04:00" name="testDeleteUsers" data-provider="UserNames" finished-at="2024-06-25T22:03:33 GMT-04:00" duration-ms="136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testUser1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUsers -->
+        <test-method signature="testDeleteUsers(java.lang.String)[pri:2, instance:api.test.DataDrivenTests@6d763516]" started-at="2024-06-25T22:03:33 GMT-04:00" name="testDeleteUsers" data-provider="UserNames" finished-at="2024-06-25T22:03:33 GMT-04:00" duration-ms="116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testUser2 ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUsers -->
+        <test-method signature="testDeleteUsers(java.lang.String)[pri:2, instance:api.test.DataDrivenTests@6d763516]" started-at="2024-06-25T22:03:33 GMT-04:00" name="testDeleteUsers" data-provider="UserNames" finished-at="2024-06-25T22:03:34 GMT-04:00" duration-ms="114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testUser3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUsers -->
+      </class> <!-- api.test.DataDrivenTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
